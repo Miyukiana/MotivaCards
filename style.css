@@ -17,28 +17,18 @@ body {
     overflow: hidden;
 }
 
-/* Container für alles außer Bilder */
-.container {
+div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center; /* Zentriert den Text */
-    margin: 0;
-}
-
-/* Container für Überschrift und Bild */
-.header-container {
-    display: flex;
-    align-items: center;
-    position: relative;
-    justify-content: center; /* Zentriert den Inhalt im Container */
+    text-align: center;
 }
 
 /* Überschrift links neben dem Bild */
 h2 {
-    margin: 50px;
-    color: rgb(146, 192, 47);
+  padding: 40px;
+  padding-top: 0;
   margin-top: 0;
 }
 
