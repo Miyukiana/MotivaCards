@@ -19,3 +19,15 @@ function generateQuote() {
 
 // Automatisch beim Laden der Seite eine Karte generieren
 generateQuote();
+
+// Array mit vorgegebenen Farben
+const colors = ['rgb(146, 192, 47)', 'mediumorchid', 'palevioletred', 'rgb(51, 178, 204)'];
+
+// Funktion, um eine zufällige Farbe aus dem Array auszuwählen
+function getRandomColor() {
+    const randomIndex = Math.floor(Math.random() * colors.length);
+    return colors[randomIndex];
+}
+
+// Wende die zufällige Farbe auf die Überschrift an
+document.getElementById('random-heading').style.color = getRandomColor();
