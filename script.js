@@ -14,7 +14,7 @@ const quotes = [
 // Funktion, um eine zufällige Karte anzuzeigen
 function generateQuote() {
     const randomIndex = Math.floor(Math.random() * quotes.length);
-    document.getElementById("quote").textContent = quotes[randomIndex];
+    document.getElementById("blue").textContent = quotes[randomIndex];
 }
 
 // Automatisch beim Laden der Seite eine Karte generieren
