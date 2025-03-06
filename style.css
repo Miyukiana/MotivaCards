@@ -6,7 +6,13 @@
 
 /* Body-Stil */
 body {
-    background-color: mintcream;
+background: linear-gradient(to bottom left,  
+  #FFE4E1,  /* Sehr helles Rosa */  
+  #FFFACD,  /* Helles Pastellgelb */  
+  #E0FFD1,  /* Sanftes Mintgrün */  
+  #D6F5FF,  /* Hellblau */  
+  #E6E6FA   /* Zartes Lavendel */  
+);
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -67,8 +73,8 @@ img {
 }
 
 button {
-    color: palevioletred;
-    background-color: mintcream;
+    color: rgb(146, 192, 47);
+  background-color: #E0FFD1;
     border: solid 1px rgb(265, 204, 0);
     font-size: 16px;
     border-radius: 5px;
